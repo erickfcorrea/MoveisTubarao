@@ -1,0 +1,315 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #171b3b, #225783, #1f2631);
+    background-size: 500% 500%;
+    animation: anima 3s infinite linear alternate;
+}
+
+.navbar {
+    overflow: hidden;
+    width: auto;
+    height: 100px;
+    background: linear-gradient(to right, #171b3b, #225783, #1f2631);
+    background-size: 500% 500%;
+    animation: anima 3s infinite linear alternate;
+    font-size: 15px;
+}
+
+.home-icon-transparent-free-png {
+    display: flex;
+    padding-bottom: -100px;
+}
+
+.navbar a {
+    float: left;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 10px;
+    color: #ffffff;
+    background: linear-gradient(to right, #282f5f, #225783, #303e53);
+    background-size: 500% 500%;
+    animation: anima 3s infinite linear alternate;
+    border-radius: 10px; 
+    border: 2px solid #ffffff;
+    padding: 10px 16px;
+    text-decoration: none;
+    transition: 1.0s;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: #000000;
+}
+
+.navbar-right {
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+
+    .navbar-right {
+        float: none;
+    }
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: -100px;
+    margin-left: -200px;
+}
+
+.container1 {
+    display: grid;
+    width: auto;
+    height: 70vh;
+    padding-bottom: 20px;
+}
+
+
+/* Definindo a animação */
+
+@keyframes anima {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+@keyframes anima {
+    0% {
+        background-position-x: 0%;
+    }
+    100% {
+        background-position-x: 100%;
+    }
+}
+
+.font {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 200px;
+    font-style: normal;
+}
+
+.bona-nova-sc-bold {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bona-nova-sc-regular-italic {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.itim-regular {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bona-nova-sc-bold {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+/*fonte style1*/
+
+.bona-nova-sc-regular-italic {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+/*fonte style1*/
+
+.itim-regular {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 400px;
+    gap: 25px;
+    margin: -400px 370px 0;
+}
+
+.container3 img {
+    width: 20%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 5px solid #ffffff;
+    transition: all ease-in-out 1s;
+    margin-top: 40px;
+}
+
+.container3 img:nth-child(n+5):nth-child(-n+30),
+.container3 img:nth-child(n+13):nth-child(-n+16) {
+    align-self: flex-end;
+    margin-top: 20px;
+}
+
+.container3 img:hover {
+    width: 28%;
+    height: 100%;
+}
+
+footer {
+    display: flex;
+    margin-top: 500px;
+    width: 100%;
+    height: 700px;
+}
+
+@keyframes anima {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+.logo1 {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    margin-top: 200px;
+    margin-left: 250px;
+}
+
+.instagram {
+    display: flex;
+    width: 75px;
+    height: 55px;
+    object-fit: cover;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: -50px;
+}
+
+.facebook {
+    display: flex;
+    width: 100px;
+    height: 55px;
+    object-fit: cover;
+    margin-top: 100px;
+    margin-left: 120px;
+    margin-right: -50px;
+    padding-right: 40px;
+}
+
+.whatsapp {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-top: 100px;
+    margin-left: 60px;
+}
+
+.localizacao {
+    display: flex;
+    width: 50px;
+    height: 60px;
+    object-fit: cover;
+    margin-top: 99px;
+    margin-left: 50px;
+    padding-left: 30px;
+}
+
+.email {
+    display: flex;
+    display: flex;
+    width: auto;
+    height: 65px;
+    object-fit: cover;
+    margin-top: 230px;
+    margin-left: -480px;
+}
+
+.email2 {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-top: 255px;
+    margin-left: 20px;
+    color: #ffffff;
+}
+
+.fone {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-top: 300px;
+    margin-left: -130px
+}
+
+.number3 {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    color: #ffffff;
+    object-fit: cover;
+    margin-top: 315px;
+    margin-left: 30px
+}
+
+.local {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin-top: 375px;
+    margin-left: -130px;
+}
+
+.location {
+    display: flex;
+    object-fit: cover;
+    margin-top: 390px;
+    margin-right: 1800px;
+    margin-left: 30px;
+    color: #ffffff;
+}
+
+.tubarao {
+    display: flex;
+    object-fit: cover;
+    margin-top: 650px;
+    margin-left: -3350px;
+    color: #ffffff;
+}
+
+.erick {
+    display: flex;
+    object-fit: cover;
+    margin-top: 650px;
+    margin-left: 900px;
+    color: #ffffff;
+}
